@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia;
+  line-height: 1.5;
+  background-color: #f0eee8;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0 0 1rem;
+  padding: 1rem;
+}
+ main {
+   background: #dcd4cd;
+   border-color: #9a816d;
+   border-radius: 3px;
+   border-width: 3px;
+ }
