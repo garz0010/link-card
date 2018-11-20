@@ -25,6 +25,9 @@ p {
   color: #512200;
 }
 
+hr {
+  border-top: 1px solid #9a816d;
+}
  main {
    background: #dcd4cd;
    border-style: solid;
