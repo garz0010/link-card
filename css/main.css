@@ -29,6 +29,13 @@ hr {
   border-top: 2px solid #9a816d;
   margin: 0;
 }
+
+.dl {
+  display: inline-block;
+  color: #512200;
+  font-size: .875rem;
+}
+
  main {
    background: #dcd4cd;
    border-style: solid;
