@@ -15,7 +15,8 @@ body {
 }
 
 h2 {
-  font-style: Dosis;
+  font-family: 'Dosis';
+  font-weight: bold;
   font-size: 1.125rem;
   color: #512200;
 }
@@ -30,10 +31,11 @@ hr {
   margin: 0;
 }
 
-.dl {
-  display: inline-block;
+dl {
+  display: inline
   color: #512200;
   font-size: .875rem;
+  list-style-type: none;
 }
 
  main {
