@@ -30,8 +30,8 @@ p {
   color: #512200;
 }
 
-hr {
-  border-top: 2px solid #9a816d;
+p {
+  border-bottom: 2px solid #9a816d;
   margin: 0;
 }
 
