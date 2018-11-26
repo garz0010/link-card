@@ -36,6 +36,11 @@ p {
 }
 
 dl {
+  border-bottom: 2px solid #9a816d;
+  margin: 0;
+}
+
+dl {
   display: inline;
   color: #512200;
   font-size: .875rem;
