@@ -18,6 +18,14 @@ body {
   background-color: #cabdb2;
 }
 
+.link-card :hover h2 {
+  background-color: #785439;
+}
+
+a {
+  display: block;
+}
+
 h2 {
   font-family: Dosis;
   font-weight: bold;
@@ -31,7 +39,7 @@ p {
 }
 
 p {
-  border-bottom: 2px solid #9a816d;
+  border-top: 2px solid #9a816d;
   margin: 0;
 }
 
@@ -41,7 +49,7 @@ dl {
 }
 
 dl {
-  display: inline;
+  display: inline-block;
   color: #512200;
   font-size: .875rem;
   list-style-type: none;
