@@ -14,6 +14,10 @@ body {
   padding: 1rem;
 }
 
+.link-card :hover {
+  background-color: #cabdb2;
+}
+
 h2 {
   font-family: Dosis;
   font-weight: bold;
