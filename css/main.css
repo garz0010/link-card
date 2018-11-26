@@ -36,15 +36,8 @@ h2 {
 p {
   font-size: 1rem;
   color: #512200;
-}
 
-p {
   border-top: 2px solid #9a816d;
-  margin: 0;
-}
-
-dl {
-  border-bottom: 2px solid #9a816d;
   margin: 0;
 }
 
@@ -53,6 +46,9 @@ dl {
   color: #512200;
   font-size: .875rem;
   list-style-type: none;
+
+  border-bottom: 2px solid #9a816d;
+  margin: 0;
 }
 
 main {
