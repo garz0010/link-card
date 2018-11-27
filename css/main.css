@@ -9,9 +9,6 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  padding: .1em;
-}
 
 .link-card {
   text-decoration: none;
@@ -33,23 +30,27 @@ body {
 
 .link-card h2 {
   margin-top: 0;
-  margin-bottom: 4px;
+  margin-bottom: 13px;
   font-family: Dosis;
   font-weight: bold;
   font-size: 1.5rem;
   color: #512200;
 }
 
+.learn {
+  text-align: center;
+}
+
 .btn {
-  margin-top: 1rem;
   padding: .4em .75em .5em;
   background-color: #785439;
   color: #fff;
   text-align: center;
   border-radius: 8px;
-  display: block;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  display: inline-block;
+  font-family: Dosis;
+  font-weight: 800;
+  font-size: 1.125rem;
 }
 
 p {
@@ -63,7 +64,7 @@ dl {
   list-style-type: none;
   border-top: 2px solid #9a816d;
   border-bottom: 2px solid #9a816d;
-  margin-top: 1rem;
+  padding: 1rem 0;
 }
 
 dt {
