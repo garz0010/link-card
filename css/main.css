@@ -65,11 +65,3 @@ dd {
   font-style: italic;
   display: inline-block;
 }
-
-main {
-  background: #dcd4cd;
-  border-style: solid;
-  border-color: #9a816d;
-  border-radius: 8px;
-  border-width: 3px;
-}
