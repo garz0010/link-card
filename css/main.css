@@ -10,35 +10,47 @@ html {
 }
 
 body {
-  margin: 0 0 1rem;
+  padding: .1em;
+
+}
+
+.link-card {
+  text-decoration: none;
+  border: 3px solid #9a816d;
+  background-color: #dcd4cd;
+  border-radius: 3px;
   padding: 1rem;
-}
-
-.link-card :hover {
-  background-color: #cabdb2;
-}
-
-.link-card :hover h2 {
-  background-color: #785439;
-}
-
-a {
   display: block;
 }
 
-h2 {
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+.link-card h2 {
+  margin-top: 0;
+  margin-bottom: 4px;
   font-family: Dosis;
   font-weight: bold;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   color: #512200;
+}
+
+.btn {
+  margin-top: 1rem;
+  padding: .4em .75em .5em;
+  background-color: #785439;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  display: block;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 p {
   font-size: 1rem;
   color: #512200;
-
-  border-top: 2px solid #9a816d;
-  margin: 0;
 }
 
 dl {
@@ -46,9 +58,13 @@ dl {
   color: #512200;
   font-size: .875rem;
   list-style-type: none;
-
+  border-top: 2px solid #9a816d;
   border-bottom: 2px solid #9a816d;
   margin: 0;
+}
+
+dd {
+  font-style: italic;
 }
 
 main {
