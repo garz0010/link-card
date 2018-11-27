@@ -53,7 +53,6 @@ p {
 }
 
 dl {
-  display: inline-block;
   color: #512200;
   font-size: .875rem;
   list-style-type: none;
@@ -64,6 +63,7 @@ dl {
 
 dd {
   font-style: italic;
+  display: inline-block;
 }
 
 main {
