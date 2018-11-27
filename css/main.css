@@ -17,7 +17,8 @@ body {
   text-decoration: none;
   border: 3px solid #9a816d;
   background-color: #dcd4cd;
-  border-radius: 3px;
+  border-radius: 8px;
+  border-width: 3px;
   padding: 1rem;
   display: block;
 }
@@ -63,5 +64,5 @@ dl {
 
 dd {
   font-style: italic;
-  display: inline-block;
+  display: block;
 }
